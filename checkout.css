@@ -1,0 +1,70 @@
+/* ===================== CHECKOUT PAGE ===================== */
+.checkout-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #ffe6f2; /* baby pink background */
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.checkout-container h1 {
+  text-align: center;
+  color: rosybrown;
+  margin-bottom: 25px;
+  font-style: italic;
+  
+}
+
+.checkout-form label {
+  display: block;
+  margin: 10px 0 5px 0;
+  font-weight: 500;
+  color: #4b3a44;
+}
+
+.checkout-form input,
+.checkout-form textarea,
+.checkout-form select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  background: #fff0f5;
+}
+
+.checkout-form textarea {
+  resize: none;
+  height: 80px;
+}
+
+.order-summary {
+  background: #fff5f7;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.order-summary p {
+  margin: 5px 0;
+  color: #4b3a44;
+}
+
+.place-order-btn {
+  width: 100%;
+  padding: 14px;
+  background: #ff99cc;
+  border: none;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.place-order-btn:hover {
+  background: #ff66aa;
+}
